@@ -274,7 +274,7 @@ footer a:hover {
     position: relative;
     z-index: 1;
     width: 80%;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     color: #333;
     padding: 0.5rem 1rem;
 }
@@ -290,7 +290,7 @@ footer a:hover {
 /* Update responsive font size */
 @media screen and (max-width: 768px) {
     .section-title {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 
