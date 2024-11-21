@@ -37,7 +37,7 @@
         <div class="modal-content">
             <span class="close" onclick="document.getElementById('couponModal').style.display='none';">&times;</span>
             <h2>Request Your Coupons</h2>
-            <form>
+            <form id="couponForm" action="https://formspree.io/f/mwpkqylq" method="POST" onsubmit="handleSubmit(event)">
                 <div>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -160,6 +160,7 @@
             }
         }
     </script>
+    <script src="coupon-form.js"></script>
 </body>
 </html>
 
